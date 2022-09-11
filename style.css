@@ -1,0 +1,203 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+font-family: 'Roboto', sans-serif;
+font-size: 24px;
+line-height: 36px;
+}
+h1{
+    font-size: 80px;
+    font-weight: 700;
+    padding-bottom: 32px;
+    text-align: center;
+    line-height: 106px;
+}
+.mb-1{
+    margin-bottom: 8px;
+}
+.mb-2{
+    margin-bottom: 16px;
+}
+.container{
+    width:1200px;
+    margin:0 auto;
+}
+.header{
+   background-image:url("https://github.com/hexschool/2022-web-layout-training/blob/main/week2/banner.png?raw=true");
+   background-repeat: no-repeat;
+   background-position: center; 
+   height: 958px;
+   color:#ffffff;
+}
+.secIntro{
+  padding-top: 308px;
+}
+.p-1{
+    font-style: italic;
+    font-weight:700;
+    font-size: 24px;
+    text-align: center;
+    line-height: 36px;
+}
+.p-2{
+    font-style: italic;
+    font-weight:500;
+    font-size: 24px;
+    text-align: center;
+    line-height: 36px;
+}
+.p-3{
+    font-style: italic;
+    font-weight:500;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+}
+.border{
+    border: 1px solid #000000;
+    width: 384px;
+    margin-top: 24px;
+    margin-bottom: 28px;
+}
+h2{
+    font-size: 64px;
+    font-weight: 500;
+    padding-top: 56px;
+    text-align: center;
+    line-height: 84px;  
+}
+.icon{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    margin-top: 40px;
+}
+.icon img{
+    margin-right: 16px;
+}
+.about{
+    color:#000000;
+}
+.about-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.brand{
+background-color: #000000;
+color:#ffffff;
+margin-top: 56px;
+}
+.mt-3{
+margin-top:12px;
+}
+.mb-8{
+padding-bottom: 32px;
+}
+.brand_image1{
+  display: flex ;
+  justify-content: center;
+  margin-top: 68px;
+}
+.brand_image2{
+    display:flex;
+    justify-content: center;
+    margin-top: 40px;
+    padding-bottom: 160px;
+}
+.pb-1{
+padding-bottom: 4px;
+}
+.pb-2{
+    padding-bottom: 8px;
+}
+.dot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dot::before{
+    content:'';
+    width:22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: #891818;
+    margin-right: 16px;
+}
+.mb-2{
+    margin-bottom: 16px;
+}
+.mr-3{
+    margin-right: 24px;
+}
+.poster{
+   display: flex;
+    margin-top: 56px;
+    margin-bottom: 16px;
+    margin-right: 24px;
+}
+.text{
+    display: flex;
+    justify-content: space-around;
+}
+.photo{
+    margin-top: 48px;
+    margin-bottom: 16px;
+    display: flex;
+}
+.footer{
+    background-color: #000000;
+    margin-top: 144px;
+    color: #ffffff;
+}
+.mb-8{
+    margin-bottom: 64px;
+}
